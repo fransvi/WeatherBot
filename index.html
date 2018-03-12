@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WeatherBot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/botui/build/botui.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/botui/build/botui-theme-default.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <meta name="description" content="Chatbot to check weather.">
+  </head>
+  <body>
+    <p id="location"></p>
+    <div class="botui-app-container" id="chatbot">
+      <bot-ui></bot-ui>
+    </div>
+    <div id="results"></div>
+    
+    <script src="https://cdn.jsdelivr.net/vue/latest/vue.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.3/socket.io.js"></script>
+    <script src="https://unpkg.com/botui/build/botui.js"></script>
+    <script src="./botscript.js"></script>
+  </body>
+</html>
